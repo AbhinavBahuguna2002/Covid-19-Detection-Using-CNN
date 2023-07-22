@@ -1,10 +1,9 @@
-# coding=utf-8
 import os
 import numpy as np
 
 # TensorFlow and tf.keras
 import tensorflow as tf
-from tensorflow.keras.applications.imagenet_utils import preprocess_input, decode_predictions
+from tensorflow.keras.applications.imagenet_utils import preprocess_input
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
@@ -30,7 +29,6 @@ def model_predict(img_path, model):
     x = image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
     x = preprocess_input(x)
-    #x = preprocess_input(x, mode='caffe')
 
     preds = model.predict(x)
     return preds
