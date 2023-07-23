@@ -24,7 +24,7 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/AbhinavBahuguna2002/Covid-19-Detection-Using-CNN`
 2. Navigate to the project directory: `cd Covid-19-Detection-using-CNN`
-3. Make sure you have installed the required dependencies `pip freeze >requirements.txt`
+3. Make sure you have installed the required dependencies `pip install -r requirements.txt`
 
 ## Dataset
 The dataset used for training the model can be found [here](https://www.kaggle.com/datasets/mr3suvhro/covid-19-xray-image-dataset-with-huge-samples). It consists of labelled chest X-Rays in two categories: Covid-19 positive and Covid-19 negative.
