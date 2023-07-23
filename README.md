@@ -34,7 +34,8 @@ The CNN model is trained on the dataset using Google Colab. The code for model t
 
 
 ## Usage
-1. Start the Flask web application: `python app.py`
-2. Access the web application at `http://localhost:5000` in your web browser.
-3. Upload a chest X-Ray image to the web application and click on the "Predict!" button.
-4. The model will classify the X-Ray as Covid-19 positive or negative and display the result on the web page.
+1. Open the Anaconda Powershell Prompt & navigate to the project directory, for example `cd C:\Users\example\Documents\folder\Covid-19-Detection-Using-CNN`
+2. Start the Flask web application: `python app.py`
+3. Access the web application at `http://localhost:5000` in your web browser.
+4. Upload a chest X-Ray image to the web application and click on the "Predict!" button.
+5. The model will classify the X-Ray as Covid-19 positive or negative and display the result on the web page.
