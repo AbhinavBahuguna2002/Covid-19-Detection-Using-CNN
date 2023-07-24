@@ -39,3 +39,4 @@ The CNN model is trained on the dataset using Google Colab. The code for model t
 3. Access the web application at `http://localhost:5000` in your web browser.
 4. Upload a chest X-Ray image to the web application and click on the "Predict!" button.
 5. The model will classify the X-Ray as Covid-19 positive or negative and display the result on the web page.
+6. Some sample inputs are provided in the <i>sample-inputs</i> folder. 
