@@ -4,7 +4,6 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Dataset](#dataset)
 - [Model Training](#model-training)
@@ -12,12 +11,6 @@
 
 ## Introduction
 This project aims to develop a model using Convolutional Neural Networks (CNN) to detect Covid-19 from chest X-Rays. The model is trained on a labeled dataset of chest X-Rays that are categorized as positive for Covid-19 or negative for Covid-19. The trained model can be used to classify new chest X-Rays and assist medical professionals in identifying potential Covid-19 cases.
-
-## Technologies Used
-- Python
-- TensorFlow
-- Keras
-- Flask
 
 ## Getting Started
 To set up this project locally, follow these steps:
